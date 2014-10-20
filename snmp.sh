@@ -1,7 +1,7 @@
 #!/bin/bash
 # snmp printer status
 # Version 1.0
-# DMSD.DK / Fyns Kontorteknik
+# DMSD.DK / Fyns Kontorteknik - Creator
 #Function takes two arguments: ip oid
 #function snmpget()
 #{
