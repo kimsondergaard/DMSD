@@ -1,6 +1,6 @@
 #!/bin/bash
 # snmp printer status
-
+# Version 1.0
 #Function takes two arguments: ip oid
 #function snmpget()
 #{
