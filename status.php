@@ -1,4 +1,9 @@
 <title>Printer status</title><body style="font-family: century gothic; font-size: 13px;">
+<header>
+
+	<p>Toshiba & Kyocera MFP tælleraflæsning for DMSD</p>
+
+</header>
 <?php
 $link = mysql_connect( 'localhost', 'root', 'C8chokokiks' ) or die( mysql_error() );
 mysql_select_db( 'status_printer', $link ) or die( mysql_error() );
