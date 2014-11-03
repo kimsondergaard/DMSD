@@ -2,7 +2,7 @@
 <link href="print.css" type="text/css" rel="stylesheet" media="print">
 <title>Printer status</title>
 </head>
-<body style="font-family: century gothic; font-size: 13px;">
+<body style="font-family: century gothic; font-size: 13px; background-image: url('Wall/bag.jpg'); background-repeat: no-repeat; background-attachment: fixed; ">
 <header>
 
 	<h2>Toshiba & Kyocera MFP t&aelig;llerafl&aelig;sning for DMSD</h2>
