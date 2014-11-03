@@ -100,18 +100,15 @@ table thead {
 <header>
 
 	<h2>Toshiba & Kyocera MFP t&aelig;llerafl&aelig;sning for DMSD</h2>
-<table>
-	<tr>
+
 		<?php if(isset($_GET['fuld'])){ }else{?><td><a href="status.php/?fuld=true">Se fuld t&aelig;ller</a></td><?php } ?>
-		<td></td>
-	</tr>
-</table>
+
 </header>
 <?php
 if($_GET[fuld] == true){$limit = '';}else{$limit = 'LIMIT 20';}
 $link = mysql_connect( 'localhost', 'root', 'C8chokokiks' ) or die( mysql_error() );
 mysql_select_db( 'status_printer', $link ) or die( mysql_error() );
-echo "<table><tr style='background-color: white; color: black;'>
+echo "<table id='wrapper'><tr style='background-color: white; color: black;'>
 <th style='min-width: 180px;'>Sidst k&oslash;rt</th>
 <th style='width: 200px;'>Hostnavn</th>
 <th style='width: 140px;'>Serienummer</th>
