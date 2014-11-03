@@ -3,7 +3,7 @@
 <title>Printer status</title>
 </head>
 <html>
-<body style="font-family: century gothic; font-size: 13px; background-image: url('http://p1.pichost.me/i/5/1282860.jpg'); background-repeat: no-repeat; background-attachment: fixed; ">
+<body style="font-family: century gothic; font-size: 13px; background-image: url('http://p1.pichost.me/i/5/1282860.jpg'); background-repeat: no-repeat; background-attachment: fixed; color: white; ">
 <header>
 
 	<h2>Toshiba & Kyocera MFP t&aelig;llerafl&aelig;sning for DMSD</h2>
@@ -18,7 +18,7 @@
 if($_GET[fuld] == true){$limit = '';}else{$limit = 'LIMIT 20';}
 $link = mysql_connect( 'localhost', 'root', 'C8chokokiks' ) or die( mysql_error() );
 mysql_select_db( 'status_printer', $link ) or die( mysql_error() );
-echo "<table><tr style='background-color: black; color: white;'>
+echo "<table><tr style='background-color: white; color: black;'>
 <td style='min-width: 180px;'>Sidst k&oslash;rt</td>
 <td style='width: 200px;'>Hostnavn</td>
 <td style='width: 140px;'>Serienummer</td>
