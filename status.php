@@ -4,7 +4,7 @@
 	<h2>Toshiba & Kyocera MFP t&aelig;llerafl&aelig;sning for DMSD</h2>
 <table>
 	<tr>
-		<?php if(isset($_GET[fuld])){ ?><td><a href="status.php/?fuld=true">Se fuld tæller</a></td><?php } ?>
+		<?php if(isset($_GET['fuld'])){ ?><td><a href="status.php/?fuld=true">Se fuld tæller</a></td><?php } ?>
 		<td></td>
 	</tr>
 </table>
