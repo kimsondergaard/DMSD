@@ -3,7 +3,7 @@
 <title>Printer status</title>
 </head>
 <html>
-<body style="font-family: century gothic; font-size: 13px; background-image: url('Wall/bag.jpg'); background-repeat: no-repeat; background-attachment: fixed; ">
+<body style="font-family: century gothic; font-size: 13px; background-image: url('http://p1.pichost.me/i/5/1282860.jpg'); background-repeat: no-repeat; background-attachment: fixed; ">
 <header>
 
 	<h2>Toshiba & Kyocera MFP t&aelig;llerafl&aelig;sning for DMSD</h2>
