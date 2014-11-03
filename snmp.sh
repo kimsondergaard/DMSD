@@ -9,7 +9,7 @@
 #    echo $snmpdata
 #}
 
-#Herunder skrives der IP adresser på de kyocer printere der ønskes taeller fra
+
 	ips=('172.29.8.250')
 
 
