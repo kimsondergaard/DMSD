@@ -1,7 +1,7 @@
 <title>Printer status</title><body style="font-family: century gothic; font-size: 13px;">
 <header>
 
-	<p>Toshiba & Kyocera MFP tælleraflæsning for DMSD</p>
+	<h2>Toshiba & Kyocera MFP t&aelig;llerafl&aelig;sning for DMSD</h2>
 
 </header>
 <?php
