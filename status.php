@@ -2,6 +2,7 @@
 <link href="print.css" type="text/css" rel="stylesheet" media="print">
 <title>Printer status</title>
 </head>
+<html>
 <body style="font-family: century gothic; font-size: 13px; background-image: url('Wall/bag.jpg'); background-repeat: no-repeat; background-attachment: fixed; ">
 <header>
 
@@ -60,3 +61,5 @@ $result = mysql_query("SELECT * FROM status ORDER BY tid DESC $limit");
 }
 echo "</table>";
 ?>
+</body>
+</html>
