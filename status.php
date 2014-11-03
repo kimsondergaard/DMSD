@@ -112,16 +112,16 @@ if($_GET[fuld] == true){$limit = '';}else{$limit = 'LIMIT 20';}
 $link = mysql_connect( 'localhost', 'root', 'C8chokokiks' ) or die( mysql_error() );
 mysql_select_db( 'status_printer', $link ) or die( mysql_error() );
 echo "<table><tr style='background-color: white; color: black;'>
-<td style='min-width: 180px;'>Sidst k&oslash;rt</td>
-<td style='width: 200px;'>Hostnavn</td>
-<td style='width: 140px;'>Serienummer</td>
-<td style='min-width: 50px;'>ialt udskrevet A3 farve</td>
-<td style='min-width: 50px;'>ialt udskrevet A3 sort/hvid</td>
-<td style='min-width: 50px;'>ialt udskrevet A4 farve</td>
-<td style='min-width: 50px;'>ialt udskrevet A4 sort/hvid</td>
-<td style='min-width: 80px;'>ialt udskrevet</td>
-<td style='min-width: 70px;'>ialt scannet</td>
-<td style='min-width: 105px;'>IP</td>
+<th style='min-width: 180px;'>Sidst k&oslash;rt</th>
+<th style='width: 200px;'>Hostnavn</th>
+<th style='width: 140px;'>Serienummer</th>
+<th style='min-width: 50px;'>ialt udskrevet A3 farve</th>
+<th style='min-width: 50px;'>ialt udskrevet A3 sort/hvid</th>
+<th style='min-width: 50px;'>ialt udskrevet A4 farve</th>
+<th style='min-width: 50px;'>ialt udskrevet A4 sort/hvid</th>
+<th style='min-width: 80px;'>ialt udskrevet</th>
+<th style='min-width: 70px;'>ialt scannet</th>
+<th style='min-width: 105px;'>IP</th>
 </tr>";
 
 $result = mysql_query("SELECT * FROM status ORDER BY tid DESC $limit");
