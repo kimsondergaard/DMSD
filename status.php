@@ -2,9 +2,15 @@
 <header>
 
 	<h2>Toshiba & Kyocera MFP t&aelig;llerafl&aelig;sning for DMSD</h2>
-
+<table>
+	<tr>
+		<td><a href="&amp;fuld=true">Se fuld tæller</a></td>
+		<td></td>
+	</tr>
+</table>
 </header>
 <?php
+if($_GET[fuld] == true){$limit = '';}else{$limit = 'LIMIT 20';}
 $link = mysql_connect( 'localhost', 'root', 'C8chokokiks' ) or die( mysql_error() );
 mysql_select_db( 'status_printer', $link ) or die( mysql_error() );
 echo "<table><tr style='background-color: black; color: white;'>
@@ -20,7 +26,7 @@ echo "<table><tr style='background-color: black; color: white;'>
 <td style='min-width: 100px;'>IP</td>
 </tr>";
 
-$result = mysql_query("SELECT * FROM status ORDER BY tid DESC LIMIT 20");
+$result = mysql_query("SELECT * FROM status ORDER BY tid DESC $limit");
 		while($row = mysql_fetch_assoc($result)){
 		
 		echo "<tr>";
