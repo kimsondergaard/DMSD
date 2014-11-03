@@ -88,6 +88,7 @@ table th, table td {
     height: 200px;
     overflow-x: scroll;
     overflow-y: scroll;
+	margin: 0 auto;
 }
 table thead {
     position: fixed;
