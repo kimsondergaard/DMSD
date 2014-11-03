@@ -1,7 +1,4 @@
 #!/bin/bash
-# snmp printer status
-
-#Function takes two arguments: ip oid
 
 ips=('172.29.8.250' '172.29.8.107')
 
