@@ -2,11 +2,8 @@
 # snmp printer status
 
 #Function takes two arguments: ip oid
-#function snmpget()
-#{
-#    snmpdata=`snmpget -v2c -c public $1 $2 | cut -d" " -f3-`
-#    echo $snmpdata
-#}
+
+
 
 ips=()
 ips+=('172.29.8.250')
