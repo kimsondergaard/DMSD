@@ -9,7 +9,7 @@
 #}
 
 
-
+#Herunder skrives der IP adresser på de Toshiba printere der ønskes status fra. 
  
 ips=('172.29.8.103' '172.29.8.115')
 
