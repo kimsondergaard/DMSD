@@ -20,7 +20,7 @@ mysql_select_db( 'status_printer', $link ) or die( mysql_error() );
 echo "<table><tr style='background-color: black; color: white;'>
 <td style='min-width: 180px;'>Sidst k&oslash;rt</td>
 <td style='width: 200px;'>Hostnavn</td>
-<td style='width: 130px;'>Serienummer</td>
+<td style='width: 140px;'>Serienummer</td>
 <td style='min-width: 50px;'>ialt udskrevet A3 farve</td>
 <td style='min-width: 50px;'>ialt udskrevet A3 sort/hvid</td>
 <td style='min-width: 50px;'>ialt udskrevet A4 farve</td>
