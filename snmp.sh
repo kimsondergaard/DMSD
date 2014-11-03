@@ -3,11 +3,7 @@
 
 #Function takes two arguments: ip oid
 
-
-
-ips=()
-ips+=('172.29.8.250')
-ips+=('172.29.8.107')
+ips=('172.29.8.250' '172.29.8.107')
 
 for ip in ${ips[@]} ; do
 serienummer=$(snmpget -v2c -c public $ip iso.3.6.1.2.1.43.5.1.1.17.1 | cut -d" " -f4-) 
