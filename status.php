@@ -121,7 +121,7 @@ echo "<table id='wrapper'><tr style='background-color: white; color: black;'>
 <th style='min-width: 105px;'>IP</th>
 </tr>";
 
-$result = mysql_query("SELECT * FROM status ORDER BY ialt DESC $limit");
+$result = mysql_query("SELECT * FROM status ORDER BY ialt $limit");
 		while($row = mysql_fetch_assoc($result)){
 		
 		echo "<tr>";
