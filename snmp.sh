@@ -4,10 +4,7 @@
 # DMSD.DK / Fyns Kontorteknik - Creator
 #Function takes two arguments: ip oid
 #function snmpget()
-#{
-#    snmpdata=`snmpget -v2c -c public $1 $2 | cut -d" " -f3-`
-#    echo $snmpdata
-#}
+
 
 	ips=('172.29.8.250' '172.29.8.107')
 
