@@ -1,10 +1,14 @@
-<title>Printer status</title><body style="font-family: century gothic; font-size: 13px;">
+<head>
+<link href="print.css" type="text/css" rel="stylesheet" media="print">
+<title>Printer status</title>
+</head>
+<body style="font-family: century gothic; font-size: 13px;">
 <header>
 
 	<h2>Toshiba & Kyocera MFP t&aelig;llerafl&aelig;sning for DMSD</h2>
 <table>
 	<tr>
-		<?php if(isset($_GET['fuld'])){ }else{?><td><a href="status.php/?fuld=true">Se fuld tæller</a></td><?php } ?>
+		<?php if(isset($_GET['fuld'])){ }else{?><td><a href="status.php/?fuld=true">Se fuld t&aelig;ller</a></td><?php } ?>
 		<td></td>
 	</tr>
 </table>
@@ -14,7 +18,7 @@ if($_GET[fuld] == true){$limit = '';}else{$limit = 'LIMIT 20';}
 $link = mysql_connect( 'localhost', 'root', 'C8chokokiks' ) or die( mysql_error() );
 mysql_select_db( 'status_printer', $link ) or die( mysql_error() );
 echo "<table><tr style='background-color: black; color: white;'>
-<td style='min-width: 180px;'>Sidts k&oslash;rt</td>
+<td style='min-width: 180px;'>Sidst k&oslash;rt</td>
 <td style='width: 200px;'>Hostnavn</td>
 <td style='width: 130px;'>Serienummer</td>
 <td style='min-width: 100px;'>ialt udskrevet A3 farve</td>
