@@ -20,7 +20,7 @@ echo "<table><tr style='background-color: black; color: white;'>
 <td style='min-width: 100px;'>IP</td>
 </tr>";
 
-$result = mysql_query("SELECT * FROM status ORDER BY tid DESC");
+$result = mysql_query("SELECT * FROM status ORDER BY tid DESC LIMIT 20");
 		while($row = mysql_fetch_assoc($result)){
 		
 		echo "<tr>";
