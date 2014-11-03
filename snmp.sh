@@ -1,13 +1,14 @@
 #!/bin/bash
 # snmp printer status
-# Version 1.0
-# DMSD.DK / Fyns Kontorteknik - Creator
+
 #Function takes two arguments: ip oid
 #function snmpget()
-
+#{
+#    snmpdata=`snmpget -v2c -c public $1 $2 | cut -d" " -f3-`
+#    echo $snmpdata
+#}
 
 	ips=('172.29.8.250' '172.29.8.107')
-
 
 for ip in ${ips[@]} ; do
 serienummer=$(snmpget -v2c -c public $ip iso.3.6.1.2.1.43.5.1.1.17.1 | cut -d" " -f4-) 

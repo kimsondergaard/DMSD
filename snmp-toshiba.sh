@@ -8,10 +8,7 @@
 #    echo $snmpdata
 #}
 
-
-
- 
-ips=('172.29.8.103' '172.29.8.115')
+	ips=('172.29.8.103' '172.29.8.115')
 
 for ip in ${ips[@]} ; do
 netstat -tupln | grep $ip:80
