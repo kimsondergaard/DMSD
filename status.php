@@ -21,13 +21,13 @@ echo "<table><tr style='background-color: black; color: white;'>
 <td style='min-width: 180px;'>Sidst k&oslash;rt</td>
 <td style='width: 200px;'>Hostnavn</td>
 <td style='width: 130px;'>Serienummer</td>
-<td style='min-width: 100px;'>ialt udskrevet A3 farve</td>
-<td style='min-width: 100px;'>ialt udskrevet A3 sort/hvid</td>
-<td style='min-width: 100px;'>ialt udskrevet A4 farve</td>
-<td style='min-width: 100px;'>ialt udskrevet A4 sort/hvid</td>
-<td style='min-width: 100px;'>ialt udskrevet</td>
-<td style='min-width: 100px;'>ialt scannet</td>
-<td style='min-width: 100px;'>IP</td>
+<td style='min-width: 50px;'>ialt udskrevet A3 farve</td>
+<td style='min-width: 50px;'>ialt udskrevet A3 sort/hvid</td>
+<td style='min-width: 50px;'>ialt udskrevet A4 farve</td>
+<td style='min-width: 50px;'>ialt udskrevet A4 sort/hvid</td>
+<td style='min-width: 80px;'>ialt udskrevet</td>
+<td style='min-width: 70px;'>ialt scannet</td>
+<td style='min-width: 105px;'>IP</td>
 </tr>";
 
 $result = mysql_query("SELECT * FROM status ORDER BY tid DESC $limit");
