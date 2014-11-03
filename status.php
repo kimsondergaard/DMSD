@@ -4,7 +4,7 @@
 	<h2>Toshiba & Kyocera MFP t&aelig;llerafl&aelig;sning for DMSD</h2>
 <table>
 	<tr>
-		<td><a href="&amp;fuld=true">Se fuld tæller</a></td>
+		<td><a href="status.php&amp;fuld=true">Se fuld tæller</a></td>
 		<td></td>
 	</tr>
 </table>
