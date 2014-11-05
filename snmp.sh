@@ -1,4 +1,7 @@
 #!/bin/bash
+# snmp printer status
+
+#Function takes two arguments: ip oid
 
 ips=('172.29.8.250' '172.29.8.107')
 
@@ -14,6 +17,6 @@ hostnavn=$(snmpget -v2c -c public $ip iso.3.6.1.4.1.1347.40.10.1.1.5.1 | cut -d"
 scan=$(snmpget -v2c -c public $ip iso.3.6.1.4.1.1347.46.10.1.1.5.3 | cut -d" " -f4-)
 
  
-mysql --host=localhost --user=root --password=C8chokokiks status_printer -e "INSERT INTO status (serienummer,model,ialt,a3f,a3sh,a4sh,a4f,hostnavn,scan,ip)
+mysql --host=172.29.8.15 --user=root --password=C8chokokiks status_printer -e "INSERT INTO status (serienummer,model,ialt,a3f,a3sh,a4sh,a4f,hostnavn,scan,ip)
  VALUES('${serienummer}','${model}','${ialt}','${a3f}','${a3sh}','${a4sh}','${a4f}','${hostnavn}','${scan}','${ip}');"
 done
